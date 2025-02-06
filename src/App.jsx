@@ -7,7 +7,7 @@ import PostPage from './components/PostPage/PostPage';
 import LoginPage from './components/LoginPage/LoginPage';
 import SignUpPage from './components/SignUpPage/SignUpPage';
 import PostDetailPage from './PostDetail.jsx/PostDetailPage';
-import CodePostDetailPage from './PostDetail.jsx/codepostdetail';
+import CodePostDetailPage from './PostDetail.jsx/Codepostdetail';
 import CodePostPage from './components/CodePostPage/CodePostPage';
 import FindPwd from './components/LoginPage/FindPassword';
 import Resetpwd from './components/LoginPage/Reset-password'
