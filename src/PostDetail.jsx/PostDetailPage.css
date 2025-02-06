@@ -1,0 +1,38 @@
+/* Quill 에디터의 글자 크기 스타일 적용 */
+.ql-size-small { font-size: 0.75em; }
+.ql-size-large { font-size: 1.5em; }
+.ql-size-huge { font-size: 2.5em; }
+
+/* Quill의 코드 블록 스타일 적용 */
+.ql-syntax {
+  background-color: #f3f3f3 !important;
+  color: #333 !important;
+  padding: 10px !important;
+  border-radius: 5px !important;
+  overflow-x: auto !important;
+  font-family: "Courier New", Courier, monospace !important;
+  font-size: 14px !important;
+}
+
+/* Quill의 글자 스타일 강제 적용 */
+.quill-content {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
+
+.quill-content img {
+  max-width: 100%; /* 카드보다 크지 않게 조정 */
+  height: auto; /* 비율 유지 */
+  display: block; /* 이미지가 가운데 정렬 */
+  margin: 0 auto; /* 중앙 정렬 */
+  object-fit: contain; /* 잘리지 않도록 조정 */
+}
+
+
+/* Quill의 헤더 스타일 적용 */
+.quill-content h1 { font-size: 2em !important; font-weight: bold; }
+.quill-content h2 { font-size: 1.75em !important; font-weight: bold; }
+.quill-content h3 { font-size: 1.5em !important; font-weight: bold; }
+.quill-content h4 { font-size: 1.25em !important; font-weight: bold; }
+.quill-content h5 { font-size: 1em !important; font-weight: bold; }
+.quill-content h6 { font-size: 0.875em !important; font-weight: bold; }

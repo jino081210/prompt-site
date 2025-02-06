@@ -1,0 +1,20 @@
+.center {
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/pexels-jplenio-1103970.jpg'); /* 배경 이미지 URL */
+    background-size: cover;
+    background-position: center;
+  }
+  .glass {
+    width: 500px;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(1px) !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5) !important; /* hover 상태 유지 */
+  }
+  #root {
+    width: 100%; 
+  }

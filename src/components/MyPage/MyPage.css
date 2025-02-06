@@ -1,0 +1,6 @@
+.nameChange {
+    cursor: pointer;       
+}
+.nameChange :hover{
+    color: blue;
+}
